@@ -7,14 +7,26 @@ body {
 }
 
 
-#farm {
-
+#chicken-details img {
+	width: 30%;
 }
+
+#chicken-details {
+	text-align: center;
+	padding-top: 100px;
+	margin-left: 300px;
+}
+
+#chicken-details p {
+	font-family: 'Slabo 27px';
+}
+
+
 
 
 #nav {
 	background-color: white;
-	width: 20%;
+	width: 13%;
 	height: 1000px;
 	position:fixed;
 	color: green;
@@ -33,3 +45,27 @@ body {
 #nav li:nth-child(1) {
 	padding-top: 40px;
 }
+
+#details {
+	margin-left: 300px;
+}
+
+#details h1 {
+		font-family: 'Slabo 27px';
+		text-align: center;
+		font-size: 60px;
+		margin-bottom: 0px;
+}
+
+#details p {
+	text-align: center;
+	font-family: 'Slabo 27px';
+	padding-bottom: 20px;
+	/*margin: 0px;*/
+}
+
+
+
+
+
+
