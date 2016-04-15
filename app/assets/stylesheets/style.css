@@ -6,19 +6,33 @@ body {
 	margin: 0px;
 }
 
+h1 {
+	font-family: 'Slabo 27px';
+}
+
+p {
+	font-family: 'Slabo 27px';
+
+}
+
+#farm {
+	margin-left: 110px;
+}
 
 #chicken-details img {
 	width: 30%;
+
 }
 
 #chicken-details {
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 10px;
 	margin-left: 300px;
 }
 
-#chicken-details p {
-	font-family: 'Slabo 27px';
+
+#chicken-details p:nth-child(4) {
+	/*padding-bottom: 30px;*/
 }
 
 
@@ -30,6 +44,8 @@ body {
 	height: 1000px;
 	position:fixed;
 	color: green;
+		font-family: 'Slabo 27px';
+
 	margin-top: 0px;
 	/*border-right: 1px solid green;*/
 
@@ -38,7 +54,6 @@ body {
 #nav li {
 	padding-left: 60px;
 	padding-bottom: 20px;
-	font-family: 'Slabo 27px';
 	font-size: 20px;
 }
 
@@ -48,20 +63,30 @@ body {
 
 #details {
 	margin-left: 300px;
+	padding-bottom: 20px;
+}
+
+#details img {
+	margin: 0 auto;
+	display: block;
+	/*text-align: center;*/
 }
 
 #details h1 {
-		font-family: 'Slabo 27px';
-		text-align: center;
+			text-align: center;
 		font-size: 60px;
 		margin-bottom: 0px;
 }
 
 #details p {
 	text-align: center;
-	font-family: 'Slabo 27px';
 	padding-bottom: 20px;
 	/*margin: 0px;*/
+}
+
+#rules {
+	text-align: center;
+	margin-left: 300px;
 }
 
 
