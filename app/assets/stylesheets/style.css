@@ -15,6 +15,12 @@ p {
 
 }
 
+#menu {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
 .reviewer {
 	font-size: 25px;
 }

@@ -1,5 +1,12 @@
 $(document).ready(function(){
 	$("#nav").hide();
-	// $("#farm-div p").hide();
+	$("#menu").hide();
+
+
+	$("#restaurant-button").on("click", function(){
+		$(".hide").hide();
+		$("#menu").slideDown();
+
+	})
 
 })
