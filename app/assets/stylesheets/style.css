@@ -15,6 +15,18 @@ p {
 
 }
 
+#details-pictures-list {
+	text-align: center;
+}
+
+#details-pictures-list li {
+	display: inline-block;
+}
+
+#details-pictures-list img {
+	height: 400px;
+}
+
 #menu {
 	width: 100%;
 	display: block;
@@ -62,7 +74,7 @@ p {
 	font-family: 'Slabo 27px';
 	width: 100%;
 	padding: 0px 40px 0px 40px;
-	color: green;
+	color: #D60001;
 	border: 1px solid green;
 
 }
