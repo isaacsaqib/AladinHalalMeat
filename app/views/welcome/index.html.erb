@@ -1,5 +1,49 @@
 <body>
 
+<script>
+	    $(function(){
+	      $("#slides").slidesjs({
+	        width: 940,
+	        height: 1000,
+	        navigation: {
+		      active: false,
+		        // [boolean] Generates next and previous buttons.
+		        // You can set to false and use your own buttons.
+		        // User defined buttons must have the following:
+		        // previous button: class="slidesjs-previous slidesjs-navigation"
+		        // next button: class="slidesjs-next slidesjs-navigation"
+		      effect: "fade"
+		        // [string] Can be either "slide" or "fade".
+		    },
+		   play: {
+		      active: false,
+		        // [boolean] Generate the play and stop buttons.
+		        // You cannot use your own buttons. Sorry.
+		      effect: "fade",
+		        // [string] Can be either "slide" or "fade".
+		      interval: 3000,
+		        // [number] Time spent on each slide in milliseconds.
+		      auto: true,
+		        // [boolean] Start playing the slideshow on load.
+		      swap: true,
+		        // [boolean] show/hide stop and play buttons
+		      pauseOnHover: false,
+		        // [boolean] pause a playing slideshow on hover
+		      restartDelay: 2500
+		        // [number] restart delay on inactive slideshow
+		    },
+		   pagination: {
+		      active: false,
+		        // [boolean] Create pagination items.
+		        // You cannot use your own pagination. Sorry.
+		      effect: "slide"
+		        // [string] Can be either "slide" or "fade".
+		    }
+
+	      });
+	    });
+	  </script>
+
 	<header id="header">
 		<ul>
 			<li><p>495 S Broadway, Hicksville, NY 11801</p></li>
@@ -28,29 +72,28 @@
 		<h1>CAGE FREE</h1>
 		<h1>HAND SLAUGHTERED</h1>
 
-	<ul class="hide" id="button-list">
-		<li>
-			<p>Click here for our grill menu</p>
-			<a href="grill_menu"><button id="restaurant-button">RESTAURANT</button></a>
-		</li>
+		<ul class="hide" id="button-list">
+			<li>
+				<p>Click here for our grill menu</p>
+				<a href="grill_menu"><button id="restaurant-button">RESTAURANT</button></a>
+			</li>
 
-		<li>
-			<p>Click here for our meat shop menu</p>
-			<a href="meat_menu"><button id="meat-button">MEAT SHOP</button></a>
-		</li>
-	</ul>
-
-	
-
-	<!-- 	<p class="farm-div-details">495 S Broadway, Hicksville, NY 11801</p>
-		<p class="farm-div-details">516-595-7227</p>
-		<p class="farm-div-details">Mon-Thurs: 10am - 10pm</p>
-		<p class="farm-div-details">Fri & Sat: 10am - 12pm</p>
-		<p class="farm-div-details">100% Certified Zabiha Halal</p>
-
- -->
+			<li>
+				<p>Click here for our meat shop menu</p>
+				<a href="meat_menu"><button id="meat-button">MEAT SHOP</button></a>
+			</li>
+		</ul>
 	</div>
 
+
+	<div id="slides">
+		<img src="assets/slide1-4c6ec9571d02191fd137422355f3495077d5399261489bb54c1c6dcc69f04d5e.jpg">
+		<img src="assets/slide2-6afab80227f58300db657a28717adf4c9f943dcd6f132f6fc6fb90b8070c24dc.jpg">
+		<img src="assets/slide3-01a8dd2954428027ff5070b83ef8c6a28d20f4d104b79d8cc7160e2c80ea1002.jpg">
+		<img src="assets/slide4-eeb57d3f088b320c91f1dc1c482500bab4c5fcb690e484a51035b66a6ed6d9da.jpg">
+
+
+	</div>
 	
 
 	<ul id="details-pictures-list">
@@ -59,6 +102,11 @@
 		<li><img src='assets/DSC_0202-27073119d6135bdb6ef54c573e9ee824ff1d4d908ad892e868be1cb53490ca9b.jpg'></li>
 		<li><img src='assets/DSC_0217-ed03efbd22824e1381aebf00caf0b9e9af7ee1c8b0a2a6ec4a7412856cb8822c.jpg'></li>
 
+	</ul>
+
+	<ul id="all-menu-list">
+		<li><img class="elevatezoom" src='assets/all-meat-8443b98f407eb317d6335bfce6ba04d3190ebc4d48973673a9b9505f20fe92f2.jpg'></li>
+		<li><img class="elevatezoom" src='assets/all-food-ad839f39d71d9cc3c7cae1bf9e19bfcd5e943984fa29cf138a3a9e32dc311791.jpg'></li>
 	</ul>
 
 	<div id="details">

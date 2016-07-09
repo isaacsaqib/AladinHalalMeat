@@ -14,6 +14,34 @@ p {
 	font-family: 'Slabo 27px';
 }
 
+
+#all-menu-list {
+	text-align: center;
+}
+
+#all-menu-list li {
+	display: inline-block;
+	margin: 0 auto;
+
+}
+
+#all-menu-list li > img {
+	height: 700px;
+	margin: 0 auto;
+}
+
+#slides {
+	height: 792px;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
+#slides > img {
+	width: 80% 
+}
+
+
 #logo {
 	width: 40%;
 	margin: 0 auto;
@@ -285,6 +313,10 @@ p {
 
 	#reviews {
 		height: 500px;
+	}
+
+	#slides {
+		height: 562px;
 	}
 }
 
