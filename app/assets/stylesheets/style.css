@@ -170,13 +170,8 @@ p {
 	/*margin-left: 135px;*/
 }
 
-#farm-div h1:nth-child(1) {
-	padding-top: 200px;
-	font-size: 70px;
 
-}
-
-#farm-div h1:nth-child(6) {
+#farm-div h1:nth-child(7) {
 	padding-bottom: 150px;
 }
 
