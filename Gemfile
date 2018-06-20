@@ -1,8 +1,13 @@
 source 'https://rubygems.org'
 
 
+
+
+
+ruby '2.4.1'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.1'
+gem 'rails', '>= 5.0.0.rc2', '< 5.1'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -23,8 +28,12 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'rails_12factor', group: :production
+
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
+
+
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -36,6 +45,8 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
+
+
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
@@ -43,6 +54,16 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'rails_12factor', group: :production
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
+
+gem 'aws-sdk', '~> 3'
+
+gem 'activerecord-session_store', github: 'rails/activerecord-session_store'
+
+gem 'newrelic_rpm'
+
+
 
 
